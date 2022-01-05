@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Lato:wght@900&family=Lobster&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left:8%;
+    padding-left: 2%;
+    margin-top: 8%;
+}
+
+hr.vertical {
+    border: 0;
+    margin-top: 55px;
+    border-left: 5px solid #ef476f;
+    height: 150px;
+    float: left;
+    border-radius: 5px;
+}
+
+.half-width h1{
+    font-family: 'EB Garamond';
+    font-size: 60px;
+    margin-left: 4%;
+}
+
+.yellow-text{
+    color: #ffba08;
+}
+
+#header-yellow{
+    margin-top:-10%;
+}
+
+.half-width p{
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+.half-width img{
+    width: 85%;
+}
+
+#top-img{
+    margin-top: -25%;
+}
+
+.link-btn{
+    text-decoration: none;
+    font-family: 'Poppins';
+    background-color: #d62828;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+#scroll{
+    margin-top: 6%;
+}
+
+.mission{
+    float: center;
+    width: 100%;
+    text-align: center;
+}
+
+.mission h1{
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mission-items{
+    margin: 20px;
+    width: 20%;
+    /* height: 400px; */
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.mission-items img{
+    width: 50%;
+}
+
+.mission-items h3{
+    margin-top: 5px;
+    font-family: Lato;
+}
+
+.mission-items p{
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#mission-one{
+    background-color: #dfe7fd;
+}
+
+#mission-two{
+    background-color: #fde2e4;
+}
+
+#mission-three{
+    background-color: #fff1e6;
+}
