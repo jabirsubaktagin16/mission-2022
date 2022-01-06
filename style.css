@@ -5,6 +5,11 @@ body{
     font-family: 'Poppins';
 }
 
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -15,7 +20,6 @@ body{
     float: left;
     margin-left:8%;
     padding-left: 2%;
-    /* margin-top: 8%; */
 }
 
 .top-section{
@@ -57,6 +61,7 @@ hr.vertical {
 
 #top-img{
     margin-top: -25%;
+    margin-left: -10%;
 }
 
 .link-btn{
@@ -80,7 +85,7 @@ hr.vertical {
 
 .mission h1{
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
 }
 
@@ -101,12 +106,6 @@ hr.vertical {
     margin-top: 5px;
     font-family: 'Poppins';
     font-weight: 600;
-}
-
-.mission-items p{
-    font-family: Poppins;
-    font-size: 15px;
-    text-align: justify;
 }
 
 #mission-one{
@@ -137,7 +136,7 @@ hr.vertical {
 }
 
 #section-three-text{
-    margin: 5% auto 13% -5%;
+    margin: 6% auto 13% -5%;
 }
 
 .fourth-section{
@@ -160,10 +159,37 @@ hr.vertical {
     margin: auto -1% auto auto;
 }
 
+.fifth-section{
+    margin-top: -5%;
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 10%, 5%, 5%;
+    background-position: 12% 10%, 40% 75%, 13% 97%;
+}
+
+.fifth-section h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.fifth-section h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#fifth-image{
+    width: 70%;
+    margin-left: 10%;
+}
+
+#section-five-text{
+    margin: auto auto 13% -5%;
+}
+
 .footer{
     background-color: black;
     text-align: center;
-    margin-bottom: -9px;
+    margin-bottom: -10px;
 }
 
 .footer h2{
@@ -181,4 +207,5 @@ hr.vertical {
     padding-bottom: 2%;
     color: white;
     font-size: 10px;
+    text-align:center;
 }
