@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Lato:wght@900&family=Lobster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700;900&family=Yeseva+One&display=swap');
 
 body{
     margin: 0;
+    font-family: 'Poppins';
 }
 
 .flexible-container{
@@ -14,22 +15,27 @@ body{
     float: left;
     margin-left:8%;
     padding-left: 2%;
+    /* margin-top: 8%; */
+}
+
+.top-section{
     margin-top: 8%;
 }
 
 hr.vertical {
     border: 0;
-    margin-top: 55px;
+    margin-top: 60px;
     border-left: 5px solid #ef476f;
-    height: 150px;
+    height: 120px;
     float: left;
     border-radius: 5px;
 }
 
 .half-width h1{
-    font-family: 'EB Garamond';
+    font-family: 'Yeseva One';
     font-size: 60px;
     margin-left: 4%;
+    font-weight: 100;
 }
 
 .yellow-text{
@@ -37,7 +43,7 @@ hr.vertical {
 }
 
 #header-yellow{
-    margin-top:-10%;
+    margin-top:-8%;
 }
 
 .half-width p{
@@ -73,15 +79,14 @@ hr.vertical {
 }
 
 .mission h1{
-    font-family: 'Lato';
+    font-family: 'Poppins';
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .mission-items{
     margin: 20px;
     width: 20%;
-    /* height: 400px; */
     display: inline-block;
     text-align: left;
     border-radius: 10px;
@@ -94,7 +99,8 @@ hr.vertical {
 
 .mission-items h3{
     margin-top: 5px;
-    font-family: Lato;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .mission-items p{
@@ -104,13 +110,75 @@ hr.vertical {
 }
 
 #mission-one{
-    background-color: #dfe7fd;
+    background-color: rgba(79, 157, 166, 0.1);
 }
 
 #mission-two{
-    background-color: #fde2e4;
+    background-color: rgba(255, 89, 89, 0.1);
 }
 
 #mission-three{
-    background-color: #fff1e6;
+    background-color: rgb(255, 244, 214);
+}
+
+.third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+    background-size: 15%;
+    padding: auto;
+}
+
+#third-image{
+    width: 80%;
+    margin-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#section-three-text{
+    margin: 5% auto 13% -5%;
+}
+
+.fourth-section{
+    margin-top: -10%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 91% 97%;
+    background-size: 10%;
+    padding: auto
+}
+
+#fourth-image{
+    width: 80%;
+    margin-left: -10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#section-four-text{
+    margin: auto -1% auto auto;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    margin-bottom: -9px;
+}
+
+.footer h2{
+    padding-top: 2%;
+    font-family: Lobster;
+    color: white;
+    font-weight: 200;
+}
+
+.red-text{
+    color: #ff5959;
+}
+
+.footer p{
+    padding-bottom: 2%;
+    color: white;
+    font-size: 10px;
 }
